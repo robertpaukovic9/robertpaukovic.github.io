@@ -1,0 +1,172 @@
+body {
+    display: block;
+    overflow-x: hidden;
+}
+
+nav {
+    background-color: rgb(179, 244, 179);
+}
+
+.navbar-brand img {
+    max-height: 100px;
+    max-width: 110px;
+}
+
+.navbar-brand {
+    font-size: 24px;
+    text-transform: lovrercase;
+    font-weight: 400;
+    color: blue;
+}
+
+nav ul li a {
+    color: blue;
+    font-size: 22px;
+    margin: auto 10px;
+}
+
+nav ul li a:hover {
+    color: white;
+}
+
+nav search {
+    padding-right: auto 20px;
+}
+
+.carousel-item.h1 {
+    color: white;
+}
+
+
+section {
+    padding-top: 50px;
+    padding-right: 30px;
+    text-align: justify;
+}
+
+section h1 {
+    font-weight: 900;
+    color: #63c263;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+section h2 {
+    text-align: center;
+    color: rgb(38, 116, 38);
+}
+
+section p {
+    color: black;
+    font-family: 'verdana';
+    font-size: 20px;
+    text-align: justify;
+
+}
+
+button {
+    max-width: 150px;
+    border-radius: 150px !important;
+
+}
+
+#hero .coll {
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+}
+
+#hero .img-col {
+    justify-content: flex-end;
+    margin-top: 100px;
+}
+
+.card {
+    position: horizontal;
+}
+
+#contact {
+    text-align: center;
+    background-color: rgb(179, 244, 179);
+
+
+}
+
+#contact h1 {
+    text-align: center;
+    color: white;
+}
+
+#contact p {
+    text-align: center;
+}
+
+
+
+.accordion {
+    width: 90%;
+    max-width: 1000000px;
+    margin: 2rem auto;
+}
+
+.accordion-item {
+    background-color: #fff;
+    color: #111;
+    margin: 1rem 0;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.25);
+}
+
+.accordion-item-header {
+    padding: 0.5rem 3rem 0.5rem 1rem;
+    min-height: 3.5rem;
+    line-height: 1.25rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+    background-color: rgb(179, 244, 179);
+    color: #111;
+}
+
+
+.accordion-item-header::after {
+    content: '\002B';
+    font-size: 2rem;
+    position: absolute;
+    right: 1rem;
+
+}
+
+.accordion-item-header.active::after {
+    content: '\002D';
+
+
+}
+
+.accordion-item-body {
+
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+
+}
+
+.accordion-item-body-content {
+    padding: 1rem;
+    line-height: 1.5rem;
+    border-top: 1px solid;
+    border-image: linear-gradient(to right, transparent, #34495e, transparent) 1;
+    background-color: #fff;
+    color: #111;
+
+
+}
+
+
+.accordion-item-header.active+.accordion-item-body {
+    max-height: 500px;
+    display: block;
+
+}

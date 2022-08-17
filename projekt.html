@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Web stranica</title>
+
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+        crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="./styles.css" />
+
+
+    <script src="script.js"></script>
+
+    <script src="arrays.js"></script>
+
+    <script src="main.js" defer></script>
+
+
+</head>
+
+<body>
+
+    <!--Start navbar-->
+
+
+    <nav class="py-3 navbar navbar-expand-lg fixed-top autor">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+
+                <img src="https://www.pngfind.com/pngs/m/170-1706361_web-development-icon-web-development-logo-png-transparent.png"
+                    class="logo" alt="logo" height="100px" width="100px" />
+
+                Robert Pauković
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    </br>
+                    <li class="nav-item">
+                        <a class="nav-link" href="o meni.html">O meni</a>
+                    </li>
+                    </br>
+                    <li class="nav-item">
+                        <a class="nav-link" href="FAQ.html">Pitanja</a>
+                    </li>
+                    <br>
+                    <li class="nav-item">
+                        <a class="nav-link" href="projekt.html">Projekt</a>
+                    </li>
+                    </br>
+                    <li class="nav-item">
+                        <a class="nav-link" href="kontakt.html">Kontakt</a>
+                    </li>
+                    </br>
+                    <li class="nav-item">
+                        <a class="nav-link" href="prijava.html">Prijava</a>
+                    </li>
+                </ul>
+                </br>
+                </br>
+                </br>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    </br>
+    </br>
+    </br>
+    </br>
+    </br>
+
+
+    <!--End navbar-->
+
+    <!--Carousel slides-->
+
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="https://swapps.com/wp-content/uploads/2020/03/Cover-1.jpg" class="d-block w-100" alt="..."
+                    height="500px" width="500px">
+                <div class="carousel-caption d-none d-md-block">
+                    <h1>Moja web stranica</h1>
+                    <p>Primjer moje web stranice</p>
+
+                    <div class="slider-btn">
+
+                        <a href="#" type="submit" class="btn btn-primary">Neki servisi</a>
+                        <a href="#" type="submit" class="btn btn-primary">Ostalo</a>
+
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="https://i0.wp.com/randomnerdtutorials.com/wp-content/uploads/2021/08/ESP32-Getting-Started-Firebase.jpg?fit=1280%2C720&quality=100&strip=all&ssl=1"
+                    class="d-block w-100" alt="..." height="500px" width="500px">
+
+                <div class="carousel-caption d-none d-md-block">
+                    <h1>Moja web stranica</h1>
+                    <p>Primjer moje web stranice</p>
+                    <div class="slider-btn">
+
+                        <a href="#" type="submit" class="btn btn-primary">Neki servisi</a>
+                        <a href="#" type="submit" class="btn btn-primary">Ostalo</a>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="https://venturebeat.com/wp-content/uploads/2021/11/unity-weta.jpg?w=1200&strip=all"
+                    class="d-block w-100" alt="..." height="500px" width="500px">
+                <div class="carousel-caption d-none d-md-block">
+                    <h1>Moja web stranica</h1>
+                    <p>Primjer moje web stranice</p>
+                    <div class="slider-btn">
+
+                        <a href="#" type="submit" class="btn btn-primary">Neki servisi</a>
+                        <a href="#" type="submit" class="btn btn-primary">Ostalo</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    </br>
+    </br>
+    </br>
+    </br>
+
+
+    <!--End of carousel-->
+
+
+    <section class="O meni">
+
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col">
+                    <img src="https://vuejs.org/images/logo.png" alt="O meni" class="img-fluid" />
+                </div>
+                <div class="col">
+                    <h1>Vue.js</h1>
+                    </br>
+                    </br>
+                    <p>U ovom prilogu vam je dostupan izvor gdje se možete upoznati sa JavaScript bibiliotekom.</p>
+                    </br>
+                    <p>Dostupni su isto tako i youtube tutoriali za gradnju jedne web aplikacije nad tom bibliotekom.
+                    </p>
+                    </br>
+                    </br>
+                    <a href="https://vuejs.org/" type="submit" class="btn btn-primary">Uđi ovdje</a>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    </br>
+    </br>
+    </br>
+    </br>
+    </br>
+    </br>
+    </br>
+
+    <!--Start section-->
+
+    <section class="projekt">
+
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col">
+                    <img src="https://www.bloorresearch.com/wp-content/uploads/2013/03/MONGO-DB-logo-300x470--x.png"
+                        alt="O meni" class="img-fluid" />
+                </div>
+                <div class="col">
+                    <h1> Mongo db</h1>
+                    </br>
+                    </br>
+                    <p>MongoDB je izvorno dostupan višeplatformski program za baze podataka orijentiran na dokumente.
+                    </p>
+                    </br>
+                    <p>Klasificiran kao program baze podataka NoSQL, MongoDB koristi dokumente slične JSON-u s izbornim
+                        shemama.
+                    </p>
+                    </br>
+                    </br>
+                    <a href="https://www.mongodb.com/cloud/atlas/lp/try2?utm_source=google&utm_campaign=gs_footprint_row_search_core_brand_atlas_desktop&utm_term=mongodb&utm_medium=cpc_paid_search&utm_ad=e&utm_ad_campaign_id=12212624584&adgroup=115749713703&gclid=EAIaIQobChMI1KfKv-u49gIVUaWWCh0ASQGtEAAYASAAEgL9a_D_BwE"
+                        type="submit" class="btn btn-primary">Uđi ovdje</a>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    </br>
+    </br>
+    </br>
+    </br>
+    </br>
+    </br>
+    </br>
+    <section class="projekt">
+
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col">
+                    <img src="https://www.technisys.com/wp-content/uploads/2021/06/firebase_logo-1.png" alt="O meni"
+                        class="img-fluid" />
+                </div>
+                <div class="col">
+                    <h1> Firebase </h1>
+                    </br>
+                    </br>
+                    <p>Firebase je platforma koju je Google razvio za izradu mobilnih i web aplikacija.</p>
+                    </br>
+                    <p>Izvorno je to bila neovisna tvrtka osnovana 2011.
+                    </p>
+                    </br>
+                    <p>Godine 2014. Google je kupio platformu i sada je to njihova vodeća ponuda za razvoj aplikacija.
+                    </p>
+                    </br>
+                    <a href="https://firebase.google.com/?gclid=EAIaIQobChMIiNfmle249gIVVhoGAB01EwRfEAAYASAAEgIl6PD_BwE&gclsrc=aw.ds"
+                        type="submit" class="btn btn-primary">Uđi ovdje</a>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    </br>
+    </br>
+    </br>
+    </br>
+    </br>
+    </br>
+    </br>
+    <section class="projekt">
+
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col">
+                    <img src="https://cdn.wccftech.com/wp-content/uploads/2019/03/battle-royale.jpg" alt="O meni"
+                        class="img-fluid" />
+                </div>
+                <div class="col">
+                    <h1> Unity games </h1>
+                    </br>
+                    </br>
+                    <p>Unity je beplatni programski alat za izradu i dizajn 3D računalnih igara .</p>
+                    </br>
+                    <p>Prvi put je najavljen i objavljen u lipnju 2005.
+                    </p>
+                    </br>
+                    <p>Posebno je popularan za razvoj mobilnih igara za iOS i Android i koristi se za igre kao što su
+                        Pokémon Go ,<br> Monument Valley , Call of Duty: Mobile, Beat Sabre i Cuphead
+                    </p>
+                    </br>
+                    <p>Smatra se da je jednostavan za korištenje za početnike i popularan je za razvoj indie igara </p>
+                    <a href="https://unity.com/pages/unity-pro-buy-now?ds_rl=1295837&gclid=EAIaIQobChMIjuCx1JDs9gIVkEaRBR3DggHMEAAYASAAEgLbevD_BwE&gclsrc=aw.ds"
+                        type="submit" class="btn btn-primary">Uđi ovdje</a>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!--End section-->
+    </br>
+    </br>
+    </br>
+    </br>
+    </br>
+    </br>
+    </br>
+
+
+    <!--Start Contact section-->
+
+    <section id="contact">
+        <div class="container">
+            <div class="row align-items-center projects">
+                <div class="col">
+                    <h1>Snažna poruka</h1>
+                    </br>
+                    <p>Web programiranje i izrada web aplikacija je zaista nešto što me motivira</p>
+                    </br>
+                    <p>Oni su tu za mene</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--End Contact section-->
+
+
+</body>
+
+
+
+
+</body>
+
+</html>
